@@ -1,24 +1,13 @@
-# Create and open README.md
-echo "# MovieDB App 🎬
+# 🍿 MovieDB Explorer
 
-A React movie discovery app using TMDB API
+A blazing-fast movie discovery app powered by TMDB API.
 
-## Features ✨
-- Browse popular movies
-- Search with instant results
-- Save favorites locally
-- Responsive design
+## ✨ Key Features
+- ⚡ Instant search with debounced API calls
+- 💾 Offline favorites via Context API + localStorage
+- 📱 Mobile-optimized responsive grid
 
-## Setup
-1. Get API key from [TMDB](https://www.themoviedb.org/settings/api)
-2. Create \`src/services/api.js\` with your key
-3. Run:
-\`\`\`bash
+## 🚀 Installation
+```bash
 npm install
-npm start
-\`\`\`
-
-## Tech Stack
-- React 18
-- Context API
-- CSS Modules" > README.md
+npm run dev
